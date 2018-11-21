@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Braintree from 'braintree-web';
 
-export default class BraintreeWebDropInComponent extends React.Component {
+class BraintreeWebDropInComponent extends React.Component {
   state = {
     hostedFieldsInstance: null,
   }
@@ -96,3 +96,5 @@ BraintreeWebDropInComponent.propTypes = {
 BraintreeWebDropInComponent.defaultProps = {
   preselectVaultedPaymentMethod: true
 };
+
+export default BraintreeWebDropInComponent;

@@ -3,7 +3,7 @@ import ReactDOM from "react-dom"
 import PropTypes from "prop-types"
 import BraintreeWebDropIn from "braintree-web-drop-in"
 
-export default class BraintreeDropIn extends React.Component {
+class BraintreeDropIn extends React.Component {
   wrapper
   hostedFieldsInstance
 
@@ -66,3 +66,5 @@ BraintreeDropIn.propTypes = {
 BraintreeDropIn.defaultProps = {
   preselectVaultedPaymentMethod: true
 }
+
+export default BraintreeDropIn;
