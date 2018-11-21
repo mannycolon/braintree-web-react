@@ -1,5 +1,5 @@
 {
-  "name": "braintree-drop-in-react",
+  "name": "braintree-web-react",
   "version": "0.1.0",
   "description": "React component for Braintree Web Drop-In (v3) & Hosted Fields (v3)",
   "main": "dist/main.js",
@@ -10,23 +10,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mannycolon/braintree-drop-in-react.git"
+    "url": "git+https://github.com/mannycolon/braintree-web-react.git"
   },
   "keywords": [
     "react",
     "braintree",
-    "drop-in",
-    "hosted-fields",
-    "credit",
-    "card",
-    "payments"
+    "braintree-dropin",
+    "braintree-hostedfields",
+    "credit-card",
+    "braintree-payment-gateway"
   ],
   "author": "Manny Colon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mannycolon/braintree-drop-in-react/issues"
+    "url": "https://github.com/mannycolon/braintree-web-react/issues"
   },
-  "homepage": "https://github.com/mannycolon/braintree-drop-in-react#readme",
+  "homepage": "https://github.com/mannycolon/braintree-web-react#readme",
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "braintree-web": "^3.39.0",
