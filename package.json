@@ -5,7 +5,8 @@
   "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "postpublish": "git tag v$npm_package_version && git push origin v$npm_package_version"
   },
   "repository": {
     "type": "git",
