@@ -23,7 +23,6 @@
     "@babel/preset-env": "^7.1.6",
     "@babel/preset-react": "^7.0.0",
     "@babel/runtime": "^7.1.5",
-    "@babel/runtime-corejs2": "^7.1.5",
     "babel-loader": "^8.0.4",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
